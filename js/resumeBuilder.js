@@ -160,6 +160,10 @@ bio.display = function() {
 	$("#topContacts").append(formattedEmail);
 	$("#topContacts").append(formattedGithub);
 	$("#topContacts").append(formattedLocation);
+	$("#footerContacts").append(formattedMobile);
+	$("#footerContacts").append(formattedEmail);
+	$("#footerContacts").append(formattedGithub);
+	$("#footerContacts").append(formattedLocation);
 
 	var formattedPic = HTMLbioPic.replace("%data%", bio.bioPic);
 	$("#header").append(formattedPic);
