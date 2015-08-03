@@ -1,7 +1,7 @@
 var bio = {
 	"name": "Katrina Ortiz",
 	"role": "Front-End Web Developer",
-	"welcomeMessage": "blah blah",
+	"welcomeMessage": "Welcome to my resume!",
 	"contacts": {
 		"mobile": "954-309-4155",
 		"email": "kortiz75@gmail.com",
@@ -140,7 +140,7 @@ var projects = {
 		"title": "Portfolio",
 		"dates": "07/2015 - Present",
 		"description": "Created a portfolio to showcase my projects using HTML and CSS",
-		"images": []
+		"images": ["images/portfolioimg.jpg"]
 	}
 	]
 };
