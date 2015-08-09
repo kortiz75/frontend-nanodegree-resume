@@ -6,9 +6,10 @@ var bio = {
 		"mobile": "954-309-4155",
 		"email": "kortiz75@gmail.com",
 		"github": "https://github.com/kortiz75",
+		"linkedin": "https://www.linkedin.com/in/katrinaortiz",
 		"location": "Fort Lauderdale, FL"
 	},
-	"skills": ["Programming", "JavaScript", "HTML5", "CSS", "Python", "jQuery", "Git"],
+	"skills": ["Programming", "JavaScript", "HTML5", "CSS", "Bootstrap", "Python", "jQuery", "Git"],
 	"bioPic": "images/ProfessionalPhoto.jpg"
 };
 
@@ -154,9 +155,10 @@ bio.display = function() {
 	var formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
 	var formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
 	var formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
+	var formattedLinkedIn = HTMLlinkedIn.replace("%data%", bio.contacts.linkedin);
 	var formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
-	$("#topContacts").append(formattedMobile, formattedEmail, formattedGithub, formattedLocation);
-	$("#footerContacts").append(formattedMobile, formattedEmail, formattedGithub, formattedLocation);
+	$("#topContacts").append(formattedMobile, formattedEmail, formattedGithub, formattedLinkedIn, formattedLocation);
+	$("#footerContacts").append(formattedMobile, formattedEmail, formattedGithub, formattedLinkedIn, formattedLocation);
 
 	var formattedPic = HTMLbioPic.replace("%data%", bio.bioPic);
 	$("#header").append(formattedPic);
