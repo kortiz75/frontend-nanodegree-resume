@@ -94,7 +94,11 @@
       document.getElementById('education').style.backgroundColor = 'black';
     }
     if(document.getElementsByClassName('flex-item').length === 0) {
-      document.getElementById('lets-connect').style.backgroundColor = 'black';
+
+      document.getElementById('lets-connect').style.display = 'none';
+    }
+    if(document.getElementById('map') === null) {
+      document.getElementById('mapDiv').style.display = 'none';
     }
     //if(document.getElementById('map') === null) {
     //  document.getElementById('map-div').style.backgroundColor = 'black';
