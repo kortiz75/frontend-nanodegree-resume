@@ -139,9 +139,15 @@ var projects = {
 	},
 	{
 		"title": "Portfolio",
-		"dates": "07/2015 - Present",
+		"dates": "07/2015 - 08/2015",
 		"description": "Created a portfolio to showcase my projects using HTML and CSS",
 		"images": ["images/portfolioimg.jpg"]
+	},
+	{
+		"title": "Arcade Game Clone",
+		"dates": "08/2015 - 08/2015",
+		"description": "Created enemy and player classes using JavaScript to mimic Frogger",
+		"images": ["images/game.jpg"]
 	}
 	]
 };
