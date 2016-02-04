@@ -9,7 +9,7 @@ var bio = {
 		"linkedin": "https://www.linkedin.com/in/katrinaortiz",
 		"location": "Fort Lauderdale, FL"
 	},
-	"skills": ["Programming", "JavaScript", "HTML5", "CSS", "Bootstrap", "Python", "jQuery", "Git"],
+	"skills": ["Programming", "JavaScript", "HTML5", "CSS", "Bootstrap", "Python", "jQuery", "Git/GitHub", "Knockout", "Jasmine", "Grunt"],
 	"bioPic": "images/ProfessionalPhoto.jpg"
 };
 
@@ -67,52 +67,58 @@ var education = {
 	}],
 	"onlineCourses": [
 	{
-		"title": "Python",
-		"school": "Codecademy",
-		"dates": "06/2015 - 06/2015",
-		"url": "https://www.codecademy.com/tracks/python"
+		"title": "Becoming a Udacity Code Reviewer",
+		"school": "Udacity",
+		"dates": "01/2016 - 01/2016",
+		"url": "https://www.udacity.com/course/viewer#!/c-gr001/l-3562098906/m-3571888615"
 	},
 	{
-		"title": "HTML and CSS",
-		"school": "Codecademy",
-		"dates": "06/2015 - 06/2015",
-		"url": "https://www.codecademy.com/en/tracks/web"
+		"title": "JavaScript Testing",
+		"school": "Udacity",
+		"dates": "01/2016 - 01/2016",
+		"url": "https://www.udacity.com/course/viewer#!/c-ud549-nd/l-3769099021/m-3868728773"
 	},
 	{
-		"title": "JavaScript",
-		"school": "Codecademy",
-		"dates": "07/2015 - 07/2015",
-		"url": "https://www.codecademy.com/en/tracks/javascript"
+		"title": "JavaScript Design Patterns",
+		"school": "Udacity",
+		"dates": "10/2015 - 01/2016",
+		"url": "https://www.udacity.com/course/viewer#!/c-ud989-nd/l-3417188540/m-3374098584"
 	},
 	{
-		"title": "jQuery",
-		"school": "Codecademy",
-		"dates": "07/2015 - 07/2015",
-		"url": "https://www.codecademy.com/tracks/jquery"
+		"title": "Intro to AJAX",
+		"school": "Udacity",
+		"dates": "10/2015 - 01/2016",
+		"url": "https://www.udacity.com/course/viewer#!/c-ud110-nd/l-3174548544/m-3159128570"
 	},
 	{
-		"title": "Learn the Command Line",
-		"school": "Codecademy",
-		"dates": "07/2015 - 07/2015",
-		"url": "https://www.codecademy.com/courses/learn-the-command-line"
+		"title": "Web Performance Optimization",
+		"school": "Udacity",
+		"dates": "08/2015 - 10/2015",
+		"url": "https://www.udacity.com/course/viewer#!/c-ud884-nd/l-1464158641/m-1473429122"
 	},
 	{
-		"title": "Intro to HTML and CSS",
+		"title": "HTML5 Canvas",
+		"school": "Udacity",
+		"dates": "07/2015 - 08/2015",
+		"url": "https://www.udacity.com/course/viewer#!/c-ud292-nd/l-3163218691/m-3169968791"
+	},
+	{
+		"title": "Object Oriented JavaScript",
+		"school": "Udacity",
+		"dates": "07/2015 - 08/2015",
+		"url": "https://www.udacity.com/course/viewer#!/c-ud015-nd/l-2593668697/m-2955818684"
+	},
+	{
+		"title": "Intro to jQuery",
 		"school": "Udacity",
 		"dates": "07/2015 - 07/2015",
-		"url": "https://www.udacity.com/course/viewer#!/c-ud304-nd/l-2617868617/m-2698138588"
+		"url": "https://www.udacity.com/course/viewer#!/c-ud245-nd/l-3314378535/m-3316638682"
 	},
 	{
-		"title": "Responsive Web Design Fundamentals",
+		"title": "JavaScript Basics",
 		"school": "Udacity",
 		"dates": "07/2015 - 07/2015",
-		"url": "https://www.udacity.com/course/viewer#!/c-ud893-nd/l-3523969367/m-3551129148"
-	},
-	{
-		"title": "Responsive Images",
-		"school": "Udacity",
-		"dates": "07/2015 - 07/2015",
-		"url": "https://www.udacity.com/course/viewer#!/c-ud882-nd/l-3532609279/m-3916878757"
+		"url": "https://www.udacity.com/course/viewer#!/c-ud804-nd/l-1946788554/m-2550568535"
 	},
 	{
 		"title": "How to Use Git and GitHub",
@@ -121,10 +127,52 @@ var education = {
 		"url": "https://www.udacity.com/course/viewer#!/c-ud775-nd/l-2980038599/m-2960778924"
 	},
 	{
-		"title": "JavaScript Basics",
+		"title": "Responsive Images",
 		"school": "Udacity",
 		"dates": "07/2015 - 07/2015",
-		"url": "https://www.udacity.com/course/viewer#!/c-ud804-nd/l-1946788554/m-2550568535"
+		"url": "https://www.udacity.com/course/viewer#!/c-ud882-nd/l-3532609279/m-3916878757"
+	},
+	{
+		"title": "Responsive Web Design Fundamentals",
+		"school": "Udacity",
+		"dates": "07/2015 - 07/2015",
+		"url": "https://www.udacity.com/course/viewer#!/c-ud893-nd/l-3523969367/m-3551129148"
+	},
+	{
+		"title": "Intro to HTML and CSS",
+		"school": "Udacity",
+		"dates": "07/2015 - 07/2015",
+		"url": "https://www.udacity.com/course/viewer#!/c-ud304-nd/l-2617868617/m-2698138588"
+	},
+	{
+		"title": "Learn the Command Line",
+		"school": "Codecademy",
+		"dates": "07/2015 - 07/2015",
+		"url": "https://www.codecademy.com/courses/learn-the-command-line"
+	},
+	{
+		"title": "jQuery",
+		"school": "Codecademy",
+		"dates": "07/2015 - 07/2015",
+		"url": "https://www.codecademy.com/tracks/jquery"
+	},
+	{
+		"title": "JavaScript",
+		"school": "Codecademy",
+		"dates": "07/2015 - 07/2015",
+		"url": "https://www.codecademy.com/en/tracks/javascript"
+	},
+	{
+		"title": "HTML and CSS",
+		"school": "Codecademy",
+		"dates": "06/2015 - 06/2015",
+		"url": "https://www.codecademy.com/en/tracks/web"
+	},
+	{
+		"title": "Python",
+		"school": "Codecademy",
+		"dates": "06/2015 - 06/2015",
+		"url": "https://www.codecademy.com/tracks/python"
 	}
 	]
 };
@@ -132,10 +180,28 @@ var education = {
 var projects = {
 	"projects": [
 	{
-		"title": "About Me",
-		"dates": "07/2015 - 07/2015",
-		"description": "Created a simple About Me page using HTML and CSS",
-		"images": ["images/aboutmeimg.jpg", "images/aboutheader.jpg", "images/aboutdetail.jpg"]
+		"title": "Feed Reader Testing",
+		"dates": "01/2016 - 01/2016",
+		"description": "Implemented Jasmine test suites to test a feed reader site and handle varying situations, including asynchronous code",
+		"images": [""]
+	},
+	{
+		"title": "Neighborhood Map",
+		"dates": "10/2015 - 01/2016",
+		"description": "Developed a neighborhood map using the Google Maps API and added map markers, a search function, a list view to support simple browsing of all locations, and info windows with Wikipedia information",
+		"images": [""]
+	},
+	{
+		"title": "Website Optimization",
+		"dates": "08/2015 - 10/2015",
+		"description": "Optimized a website to achieve a PageSpeed score of  95 on desktop and 91 on mobile and to run at 60 frames per second",
+		"images": [""]
+	},
+	{
+		"title": "Arcade Game Clone",
+		"dates": "08/2015 - 08/2015",
+		"description": "Created enemy and player classes using JavaScript to mimic Frogger",
+		"images": ["images/game.jpg"]
 	},
 	{
 		"title": "Portfolio",
@@ -144,10 +210,10 @@ var projects = {
 		"images": ["images/portfolioimg.jpg"]
 	},
 	{
-		"title": "Arcade Game Clone",
-		"dates": "08/2015 - 08/2015",
-		"description": "Created enemy and player classes using JavaScript to mimic Frogger",
-		"images": ["images/game.jpg"]
+		"title": "About Me",
+		"dates": "07/2015 - 07/2015",
+		"description": "Created a simple About Me page using HTML and CSS",
+		"images": ["images/aboutmeimg.jpg", "images/aboutheader.jpg", "images/aboutdetail.jpg"]
 	}
 	]
 };
